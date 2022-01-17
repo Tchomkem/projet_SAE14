@@ -13,17 +13,87 @@
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
 		<link href="https://bootswatch.com/5/journal/bootstrap.min.css" type="text/css" rel="stylesheet" />
-		<h1><center>Mes Loisirs</center></h1>
+	<main class="container">
+  <div class="p-5 p-md-5 mb-5 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">Mes Loisirs</h1>
+      
+      <p class="lead mb-0"><a href="" class="text-white fw-bold"></a></p>
+    </div>
+  </div>
     </head>
 	 <body>
-	 <div class="btn-group-vertical">
-  <button type="button" class="btn btn-primary">Button</button>
-  <button type="button" class="btn btn-primary">Button</button>
-  <button type="button" class="btn btn-primary">Button</button>
-  <button type="button" class="btn btn-primary">Button</button>
-  <button type="button" class="btn btn-primary">Button</button>
-  <button type="button" class="btn btn-primary">Button</button>
-</div>
+	
+
+
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+   
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Le FOOTBALL <span class="text-muted"></span></h2>
+        <p class="lead">Je joue au foot depuis mon enfance et c'est un réel plaisir pour moi</p>
+      </div>
+      <div class="col-md-5">
+         <img src="image/foot.png "  style="width: 35rem; height: 35rem;"> <img src="image/foot1.png "  style="width: 35rem; height: 35rem;">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Course à pied <span class="text-muted"></span></h2>
+        <p class="lead">Je fais la course à pied chaques weekend, sa me permet de gerder la forme </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="image/course.png"  style="width: 25rem; height: 25rem;"> 
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">La Photographie <span class="text-muted"></span></h2>
+        <p class="lead">J'aime les beaux paysages, il n'y a rien de plus beau que de les importaliser avec un petit clicher.</p>
+      </div>
+      <div class="col-md-5">
+       <img src="image/yde.png"  style="width: 35rem; height: 35rem;"> <img src="image/Roanne.png"  style="width: 35rem; height: 35rem;">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  
+
+
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<a href="#" class="btn btn-primary">scroll-up </a>
+	
+
 	 
 	         {% block body %}{% endblock %}
     </body>
